@@ -1,6 +1,6 @@
 # dlinit
 
-CLI to bootstrap reproducible PyTorch/NLP project folders.
+CLI to bootstrap reproducible Deep Learning in NLP project folders.
 
 It can:
 - Create a clean project template (data/resources/notebooks/src/checkpoints/training_summary/scripts)
