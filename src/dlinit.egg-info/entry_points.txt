@@ -1,3 +1,0 @@
-[console_scripts]
-dlinit = dlinit.cli:main
-dlnb = dlinit.cli:notebook_main
