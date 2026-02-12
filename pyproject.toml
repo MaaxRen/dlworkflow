@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dlinit"
+version = "0.1.0"
+description = "Initialize a torch/NLP project directory with a venv and minimal deps"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Max Ren" }]
+license = { text = "MIT" }
+
+[project.scripts]
+dlinit = "dlinit.cli:main"
+dlnb = "dlinit.cli:notebook_main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
