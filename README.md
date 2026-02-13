@@ -1,4 +1,4 @@
-# dlinit
+# dlworkflow
 
 CLI to create reproducible NLP deep learning project folders.
 
@@ -12,17 +12,17 @@ It can:
 
 ### Recommended (pipx)
 ```bash
-pipx install git+https://github.com/MaaxRen/dlint.git
+pipx install git+https://github.com/MaaxRen/dlworkflow.git
 ```
 
 ### pip
 ```bash
-pip install git+https://github.com/MaaxRen/dlint.git
+pip install git+https://github.com/MaaxRen/dlworkflow.git
 ```
 
 ### Development (editbale)
 ```bash
-git clone https://github.com/MaaxRen/dlint.git
+git clone https://github.com/MaaxRen/dlworkflow.git
 cd dlinit
 python -m pip install -e .
 ```

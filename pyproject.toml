@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dlinit"
+name = "dlworkflow"
 version = "0.1.0"
 description = "Initialize a torch/NLP project directory with a venv and minimal deps"
 readme = "README.md"
@@ -12,9 +12,9 @@ authors = [{ name = "Max Ren" }]
 license = { text = "MIT" }
 
 [project.scripts]
-dlinit = "dlinit.cli:main"
-dlnb = "dlinit.cli:notebook_main"
-dlnote = "dlinit.cli:note_main"
+dlinit = "dlworkflow.cli:main"
+dlnb = "dlworkflow.cli:notebook_main"
+dlnote = "dlworkflow.cli:note_main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
