@@ -1,12 +1,12 @@
 # dlworkflow
 
-CLI to create reproducible NLP deep learning project folders.
+CLI to enhance efficiency, tracibility and reproducibility in a DL/NLP workflow.
 
 It can:
-- Create a clean project template (data/resources/notebooks/src/checkpoints/training_summary/scripts)
-- Create a `.venv` with built-in `venv`
-- Install a minimal stack: numpy, pandas, scikit-learn, torch, transformers, matplotlib, tqdm, nltk
+- Create a clean project directory with minimal DL/NLP packages in venv.
 - Generate a templated Jupyter notebook (title + created date + aim + conclusion + starter imports)
+- Generate a templated experiment note (hypothesis + change + result + next + link)
+- More to be developed.
 
 ## Install
 
